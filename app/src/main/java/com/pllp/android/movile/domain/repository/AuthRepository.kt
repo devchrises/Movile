@@ -1,4 +1,4 @@
-package com.pllp.android.movile.domain.interfaces
+package com.pllp.android.movile.domain.repository
 
 import com.pllp.android.movile.domain.model.Credential
 
