@@ -67,4 +67,7 @@ dependencies {
 
     // Implmentación de SRC/TEST
     testImplementation(kotlin("test"))
+
+    //Implementación MockK
+    testImplementation(libs.mockk)
 }
