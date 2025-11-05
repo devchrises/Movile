@@ -61,6 +61,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
+    //Implementacion de Dagger Hilt
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
@@ -70,4 +71,10 @@ dependencies {
 
     //Implementación MockK
     testImplementation(libs.mockk)
+
+    //Implementación de Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.okHttp)
+    implementation(libs.logginInterceptor)
+    implementation(libs.converterGson)
 }
